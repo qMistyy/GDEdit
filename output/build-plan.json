@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "name": "dark industrial wave section",
+  "theme": "dark industrial",
+  "bpm": 140,
+  "sections": [
+    {
+      "startBeat": 0,
+      "durationBeats": 8,
+      "groupId": 1,
+      "type": "cube",
+      "lane": 0
+    },
+    {
+      "startBeat": 8,
+      "durationBeats": 16,
+      "groupId": 2,
+      "type": "wave",
+      "amplitude": 5,
+      "frequency": 1
+    }
+  ]
+}

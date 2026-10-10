@@ -1,0 +1,23 @@
+{
+  "name": "gd-level-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generate Geometry Dash SPWN source from deterministic BuildPlans.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "generate": "tsx src/cli.ts",
+    "test": "tsx --test src/**/*.test.ts"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
